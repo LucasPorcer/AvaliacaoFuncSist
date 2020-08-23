@@ -1,4 +1,0 @@
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Infra\bin\Debug\FI.WebAtividadeEntrevista.Infra.dll
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Infra\bin\Debug\FI.WebAtividadeEntrevista.Infra.pdb
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Infra\obj\Debug\FI.WebAtividadeEntrevista.Infra.dll
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Infra\obj\Debug\FI.WebAtividadeEntrevista.Infra.pdb

@@ -1,4 +1,0 @@
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Domain\bin\Debug\FI.WebAtividadeEntrevista.Domain.dll
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Domain\bin\Debug\FI.WebAtividadeEntrevista.Domain.pdb
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Domain\obj\Debug\FI.WebAtividadeEntrevista.Domain.dll
-C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.Domain\obj\Debug\FI.WebAtividadeEntrevista.Domain.pdb
