@@ -29,10 +29,10 @@ namespace FI.WebAtividadeEntrevista.InfraData.Repositories.SQL
                     dbConn.Open();
 
                     var strQuery = @"SELECT ID,
-                                            CPF,
-                                            NOME,
-                                            IDCLIENTE                                            
-                                           FROM BENEFICIARIOS (NOLOCK) WHERE IDCLIENTE = @IDCLIENTE";
+                                            Cpf,
+                                            Nome,
+                                            IDCliente                                            
+                                           FROM BENEFICIARIOS (NOLOCK) WHERE IDCliente = @IDCLIENTE";
 
                     rt = dbConn.Query<Beneficiario>(strQuery, new { IDCLIENTE = clientId });
 
@@ -88,9 +88,9 @@ namespace FI.WebAtividadeEntrevista.InfraData.Repositories.SQL
                     dbConn.Open();
 
                     var strQuery = @"SELECT ID,
-                                            CPF,
-                                            NOME,
-                                            IDCLIENTE                                            
+                                            Cpf,
+                                            Nome,
+                                            IDCliente                                            
                                            FROM BENEFICIARIOS (NOLOCK) WHERE ID = @IDBENEFICIARIO";
 
                     rt = dbConn.Query<Beneficiario>(strQuery, new { IDBENEFICIARIO = beneficiarioId }).AsList().FirstOrDefault();
