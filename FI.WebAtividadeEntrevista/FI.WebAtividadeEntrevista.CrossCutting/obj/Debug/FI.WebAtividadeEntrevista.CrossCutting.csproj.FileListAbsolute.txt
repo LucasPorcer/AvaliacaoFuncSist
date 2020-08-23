@@ -1,0 +1,5 @@
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.CrossCutting\bin\Debug\FI.WebAtividadeEntrevista.CrossCutting.dll
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.CrossCutting\bin\Debug\FI.WebAtividadeEntrevista.CrossCutting.pdb
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.CrossCutting\obj\Debug\FI.WebAtividadeEntrevista.CrossCutting.csprojAssemblyReference.cache
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.CrossCutting\obj\Debug\FI.WebAtividadeEntrevista.CrossCutting.dll
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista.CrossCutting\obj\Debug\FI.WebAtividadeEntrevista.CrossCutting.pdb

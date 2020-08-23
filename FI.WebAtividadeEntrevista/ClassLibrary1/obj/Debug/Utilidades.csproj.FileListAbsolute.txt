@@ -1,0 +1,9 @@
+E:\Docs\estudo\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Docs\estudo\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Docs\estudo\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\ClassLibrary1\obj\Debug\Utilidades.csproj.CoreCompileInputs.cache
+E:\Docs\estudo\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Docs\estudo\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\MAIS\Documents\avaliacaofuncsist\FI.WebAtividadeEntrevista\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
