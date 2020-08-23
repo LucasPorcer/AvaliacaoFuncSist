@@ -15,6 +15,6 @@ Na solution foram criados 2 novos projetos :
 ## Novos Projetos:
 
 Foram criados duas novos projetos seguindo o modelo DDD afim de demonstrar os conhecimentos nesta estrutura. 
-Para o projeto CrossCutting foi adicionado a classe validadora de CPF
-Para o projeto InfraData foi adiciono o repositório do projeto, usando o Nuget Dapper, afim de deixar mais visivel e fácil a manutenção e leitura do código,
+* Para o projeto CrossCutting foi adicionado a classe validadora de CPF
+* Para o projeto InfraData foi adiciono o repositório do projeto, usando o Nuget Dapper, afim de deixar mais visivel e fácil a manutenção e leitura do código,
 também para o projeto InfraData foi adicionado o tratamento de transactions, para obter segurança ao relizar inserts e deletes na base de dados.
