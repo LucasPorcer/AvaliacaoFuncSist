@@ -77,19 +77,17 @@ namespace WebAtividadeEntrevista.Controllers
                 if (beneficiarioRepo.ValidateIfExists(beneficiario.Cpf, beneficiario.IDCliente))
                 {
                     Response.StatusCode = 400;
-                    return Json($"Este CPF de beneficiáriojá está cadastrado para este cliente!");
+                    return Json($"Este CPF de beneficiário já está cadastrado para este cliente!");
                 }
 
-                beneficiarioRepo.AddBeneficiario(objToAdd);
+                if (!beneficiarioRepo.AddBeneficiario(objToAdd))
+                {
+                    return Json($"Não foi possível realizar o cadastro, erro interno");
+                }
 
                 return Json($"Cadastro do beneficiário {beneficiario.Nome} efetuado com sucesso!");
 
-
-            }
-            catch (System.Data.Entity.Infrastructure.DbUpdateException)
-            {
-                return Json($"CPF já existe!");
-            }
+            }           
             catch (Exception ex)
             {
                 return Json($"ERRO: {ex.Message}");
@@ -109,7 +107,6 @@ namespace WebAtividadeEntrevista.Controllers
             {
                 return Json($"ERRO: {ex.Message}");
             }
-
         }
 
 
