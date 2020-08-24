@@ -3,16 +3,16 @@ $(document).ready(function () {
 
     $("#Telefone").inputmask("mask", { "mask": "(99) 9999-99999", 'autoUnmask': true, 'removeMaskOnSubmit': true });
     $("#Cpf").inputmask("mask", { "mask": "999.999.999-99", 'autoUnmask': true, 'removeMaskOnSubmit': true }, { reverse: true });
-    $("#CEP").inputmask("mask", { "mask": "99999-999", 'autoUnmask': true, 'removeMaskOnSubmit': true }, {reverse: true});
+    $("#CEP").inputmask("mask", { "mask": "99999-999", 'autoUnmask': true, 'removeMaskOnSubmit': true }, { reverse: true });
 
     $('#formCadastro').submit(function (e) {
-      
+
         e.preventDefault();
         $.ajax({
             url: urlPost,
             method: "POST",
             data: {
-                
+
                 "NOME": $(this).find("#Nome").val(),
                 "CEP": $(this).find("#CEP").val(),
                 "Email": $(this).find("#Email").val(),
@@ -25,19 +25,20 @@ $(document).ready(function () {
                 "Cpf": $(this).find("#Cpf").val()
             },
             error:
-            function (r) {
-                if (r.status == 400)
-                    ModalDialog("Ocorreu um erro", r.responseJSON);
-                else if (r.status == 500)
-                    ModalDialog("Ocorreu um erro", "Ocorreu um erro interno no servidor.");
-            },
+                function (r) {
+                    if (r.status == 400)
+                        ModalDialog("Ocorreu um erro", r.responseJSON);
+                    else if (r.status == 500)
+                        ModalDialog("Ocorreu um erro", "Ocorreu um erro interno no servidor.");
+                },
             success:
-            function (r) {
-                ModalDialog("Sucesso!", r)                
-            }
+                function (r) {
+                    ModalDialog("Sucesso!", r)
+                    $("#formCadastro")[0].reset();
+                }
         });
     })
-    
+
 })
 
 function ModalDialog(titulo, texto) {
